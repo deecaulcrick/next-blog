@@ -1,7 +1,7 @@
 ---
 title: Improving Website Performance with Lazy Loading Images
 excerpt: One effective way to optimize your website is by implementing lazy loading for images.
-date: October 13, 2023
+date: November 13, 2022
 tags: 
 - CSS
 - Performance

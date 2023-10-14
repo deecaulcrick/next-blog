@@ -2,7 +2,7 @@
 
 /* --theme-color: #4aff7a; */
 :root {
-  --theme-color: #F3A9FF;
+  --theme-color: #D4A9FF;
   --subtle-text: #ccc;
   --subtle-divider: #8A8A8A;
   --base-background-color: #080812;
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .app-body {
-  padding: 30px 30px;
+  padding: 30px 25px;
 }
 
 .section-title {
@@ -134,12 +134,7 @@ a:hover {
   font-size: 0.8em;
 }
 
-.footer li {
-  list-style-type: none;
-  display: inline;
-  margin-left: 20px;
 
-}
 
 .footer-links,
 .footer-links a {
@@ -158,7 +153,7 @@ a:hover {
 
 .post-grid {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   row-gap: 25px;
   margin-top: 40px;
 }
@@ -170,7 +165,7 @@ a:hover {
 }
 
 .post-card img:hover {
-  transform: scale(1.02);
+  transform: scale(0.98);
 }
 
 .post-card h2 {
@@ -426,6 +421,10 @@ code {
     align-items: baseline;
   }
 
+  .app-body {
+    padding: 30px;
+  }
+
   .about p {
     width: 80%;
     font-size: 3.75rem;
@@ -459,6 +458,13 @@ code {
 
   .footer {
     grid-template-columns: 65% 35%;
+  }
+
+  .footer li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+
   }
 
 
