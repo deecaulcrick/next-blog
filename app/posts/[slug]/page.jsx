@@ -43,14 +43,9 @@ const singlePost = (props) => {
                 <h1 className="post-title">{postContent.data.title}</h1>
 
                 <p className="post-date">{postContent.data.date}</p>
-
-                <Image
-                    src={`/images/${postContent.data.coverImage}`}
+                <img src={`/images/${postContent.data.coverImage}`}
                     alt={postContent.data.title}
-                    className='post-image'
-                    width={800}
-                    height={500}
-                    style={{ objectFit: "cover" }} />
+                    className='post-image' />
 
                 <figcaption>{postContent.data.caption}</figcaption>
 

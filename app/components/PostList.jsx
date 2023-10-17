@@ -12,10 +12,8 @@ function PostList() {
                 <div key={post.slug} className="post-card">
 
                     <Link href={`/posts/${post.slug}`}>
-                        <Image src={`/images/${post.coverImage}`} alt={post.title}
-                            width={800}
-                            height={300}
-                            style={{ objectFit: "cover" }} />
+                        <img src={`/images/${post.coverImage}`} alt={post.title} />
+
                     </Link>
                     <h2 ><Link href={`/posts/${post.slug}`} className='post-card-title'>{post.title}</Link></h2>
                     <p className="post-date">{post.date}</p>

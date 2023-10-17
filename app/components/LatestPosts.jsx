@@ -16,13 +16,9 @@ function LatestPosts() {
                     <div key={post.slug} className="post-card">
                         <Link href={`/posts/${post.slug}`}>
                             <div className="post-grid-image">
-                                <Image
-                                    src={`/images/${post.coverImage}`}
-                                    alt={post.title}
-                                    width={800}
-                                    height={300}
-                                    style={{ objectFit: "cover" }}
-                                />
+                                <img src={`/images/${post.coverImage}`}
+                                    alt={post.title} />
+
                             </div>
 
                         </Link>
