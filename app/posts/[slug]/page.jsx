@@ -2,6 +2,7 @@ import fs from 'fs'
 import BlogPost from '../../components/BlogPost'
 import BackButton from '../../components/BackButton'
 import Link from 'next/link'
+import Image from 'next/image'
 import matter from 'gray-matter'
 import getPostMetaData from '../../utils/getPostMetaData'
 
@@ -35,7 +36,7 @@ const singlePost = (props) => {
 
                 <div className="category-box">
                     {postContent.data.tags.map((tag) => (
-                        <div className="category">{tag}</div>
+                        <div key={postContent.data.title} className="category">{tag}</div>
                     ))}
                 </div>
 
@@ -43,7 +44,14 @@ const singlePost = (props) => {
 
                 <p className="post-date">{postContent.data.date}</p>
 
-                <img src={`/images/${postContent.data.coverImage}`} className='post-image' />
+                <Image
+                    src={`/images/${postContent.data.coverImage}`}
+                    alt={postContent.data.title}
+                    className='post-image'
+                    width={800}
+                    height={500}
+                    style={{ objectFit: "cover" }} />
+
                 <figcaption>{postContent.data.caption}</figcaption>
 
             </div>

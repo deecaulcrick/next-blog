@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import getPostMetaData from '../utils/getPostMetaData';
 
 
@@ -8,12 +9,15 @@ function PostList() {
     return (
         <div className="post-grid">
             {postMetaData.map((post) => (
-                <div className="post-card">
+                <div key={post.slug} className="post-card">
 
                     <Link href={`/posts/${post.slug}`}>
-                        <img src={`/images/${post.coverImage}`} />
+                        <Image src={`/images/${post.coverImage}`} alt={post.title}
+                            width={800}
+                            height={300}
+                            style={{ objectFit: "cover" }} />
                     </Link>
-                    <h2 key={post.slug}><Link href={`/posts/${post.slug}`} className='post-card-title'>{post.title}</Link></h2>
+                    <h2 ><Link href={`/posts/${post.slug}`} className='post-card-title'>{post.title}</Link></h2>
                     <p className="post-date">{post.date}</p>
                 </div>
             ))}

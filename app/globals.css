@@ -2,8 +2,8 @@
 
 /* --theme-color: #4aff7a; */
 :root {
-  --theme-color: #D4A9FF;
-  --subtle-text: #ccc;
+  --theme-color: #83ff83;
+  --subtle-text: #cccccc;
   --subtle-divider: #8A8A8A;
   --base-background-color: #080812;
   --code-background-color: #011627;
@@ -157,6 +157,7 @@ a:hover {
   row-gap: 25px;
   margin-top: 40px;
 }
+
 
 .post-card img {
   width: 100%;

@@ -12,11 +12,11 @@ const snippets = () => {
 
             <div className="snippet-grid">
                 {snippetMetaData.map((snippet) => (
-                    <div className="snippet-card">
+                    <div key={snippet.slug} className="snippet-card">
                         <div className="category-box">
                             <div className="category">{snippet.category}</div>
                         </div>
-                        <h2 key={snippet.slug}><Link href={`/snippets/${snippet.slug}`}>{snippet.title}</Link></h2>
+                        <h2 ><Link href={`/snippets/${snippet.slug}`}>{snippet.title}</Link></h2>
                         <p className="snippet-description">{snippet.description}</p>
 
                         <p className="post-date">{`Last updated: ${snippet.lastUpdated}`}</p>

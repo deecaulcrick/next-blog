@@ -1,6 +1,7 @@
 import React from 'react'
 import getPostMetaData from '../utils/getPostMetaData';
 import Link from "next/link";
+import Image from 'next/image';
 
 function LatestPosts() {
 
@@ -12,11 +13,20 @@ function LatestPosts() {
             <h3 className='section-title'>LATEST POSTS</h3>
             <div className="post-grid">
                 {latestPosts.map((post) => (
-                    <div className="post-card">
+                    <div key={post.slug} className="post-card">
                         <Link href={`/posts/${post.slug}`}>
-                            <img src={`/images/${post.coverImage}`} />
+                            <div className="post-grid-image">
+                                <Image
+                                    src={`/images/${post.coverImage}`}
+                                    alt={post.title}
+                                    width={800}
+                                    height={300}
+                                    style={{ objectFit: "cover" }}
+                                />
+                            </div>
+
                         </Link>
-                        <h2 key={post.slug}><Link href={`/posts/${post.slug}`} className='post-card-title'>{post.title}</Link></h2>
+                        <h2><Link href={`/posts/${post.slug}`} className='post-card-title'>{post.title}</Link></h2>
                         <p className="post-date">{post.date}</p>
                     </div>
                 ))}
