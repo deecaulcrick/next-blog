@@ -164,6 +164,7 @@ a:hover {
   width: 100%;
   border-radius: 10px;
   transition: transform 0.5s;
+  margin-bottom: 20px;
 }
 
 .post-card img:hover {
