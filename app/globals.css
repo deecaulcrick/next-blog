@@ -250,6 +250,8 @@ svg:hover {
 .category-box {
   margin-top: 20px;
   margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .category {
@@ -265,6 +267,7 @@ svg:hover {
   border-radius: 2px;
   border: 1px solid white;
   margin-right: 10px;
+  margin-bottom: 5px;
   transition: background-color 0.5s;
 }
 
@@ -368,11 +371,11 @@ figcaption {
 
 .snippet-card,
 .project-card {
-  padding-bottom: 20px;
+  /* padding-bottom: 15px; */
   border-radius: 10px;
   border: 1px solid #757373;
   background: #080812;
-  padding: 25px;
+  padding: 20px;
   transition: box-shadow 1s, transform 0.7s;
 }
 
