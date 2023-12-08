@@ -7,10 +7,7 @@ const projects = () => {
         <h1 className="page-title">
           Projects<sup className="superscript">{projectsData.length}</sup>
         </h1>
-        <p>
-          Here is a list of projects that made it to the internet: Hii Dabiolu
-          and Teni
-        </p>
+        <p>Here is a list of projects that made it to the internet:</p>
       </div>
       <div className="project-list">
         {projectsData.map((project) => (
