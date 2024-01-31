@@ -90,24 +90,21 @@ const url =
   "https://www.panmacmillan.com/blogs/science-fiction-and-fantasy/best-new-fantasy-books";
 
 // Make a GET request to fetch the HTML content of the website
-https
-  .get(url, (response) => {
-    let data = "";
+https.get(url, (response) => {
+  let data = "";
 
-    // A chunk of data has been received.
-    response.on("data", (chunk) => {
-      data += chunk;
-    });
-
-   // The whole response has been received. Process the data.
-    response.on("end", () => {
-
-
-  })
-  .on("error", (error) => {
-    console.log("Error fetching data:", error);
+  // A chunk of data has been received.
+  response.on("data", (chunk) => {
+    data += chunk;
   });
-  })
+
+  // The whole response has been received. Process the data.
+  response
+    .on("end", () => {})
+    .on("error", (error) => {
+      console.log("Error fetching data:", error);
+    });
+});
 ```
 
 ### Step 7: Using cheerio
