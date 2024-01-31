@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    id: 7,
+    title: "Writer's Portolio",
+    desc: "Built a portfolio website to spotlight the varied talents and writing of a communications professional. Featuring a modern layout and user-friendly interface, the site brilliantly showcases Tomiwa's expertise and experience, providing an engaging platform to captivate potential clients and partners alike. ",
+    tools: ["NextJS", "CSS"],
+    link: "https://tomiwaakintode.vercel.app/",
+  },
+  {
     id: 6,
     title: "One Piece Wanted Poster Generator",
     desc: "Turned my unused profile picture generator code into an epic Wanted Poster Generator (hello one piece fans!). Just put in your name/nickname, a picture of you and how much you think you’re worth. ",
