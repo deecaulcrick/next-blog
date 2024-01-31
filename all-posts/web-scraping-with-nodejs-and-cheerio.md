@@ -9,8 +9,6 @@ coverImage: "web-scraping.png"
 
 In today's digital age, the internet is an ocean of information. But often, the data we need isn't readily available in a convenient format. This is where web scraping comes in handy.
 
-Welcome to the exciting world of web scraping!
-
 As a beginner developer, you might be wondering how you can start building your own web scraper. Well, have no fear because I'm here to guide you through the process of building your very first web scraper using Node.js and cheerio.
 
 ## What is Web Scraping
