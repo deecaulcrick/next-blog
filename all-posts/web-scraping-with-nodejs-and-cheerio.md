@@ -70,21 +70,21 @@ Create a new file named **`scraper.js`** in your project folder.
 touch scraper.js
 ```
 
-### Step 6: Require module
+### Step 6: Require modules
 
 In your **`scraper.js`** file, require the modules you'll need: **`cheerio`** and **`http`** or **`https`**.
 
-```jsx
+```javascript
 // scraper.js
-const https = require("http"); // or const https = require('https');
+const https = require("https"); // or const http = require('http');
 const cheerio = require("cheerio");
 ```
 
 ### Step 7: Use the **`http`** or **`https`** module to make a request to the website you want to scrape.
 
-For this example, i will be scraping [panmacmillian.com](http://panmacmillian.com) to get the best Fantasy Books of 2023.
+For this example, I will be scraping [panmacmillian.com](http://panmacmillian.com) to get the best Fantasy Books of 2023.
 
-```jsx
+```javascript
 // URL of the website to scrape
 const url =
   "https://www.panmacmillan.com/blogs/science-fiction-and-fantasy/best-new-fantasy-books";
@@ -107,6 +107,7 @@ https
   .on("error", (error) => {
     console.log("Error fetching data:", error);
   });
+  })
 ```
 
 ### Step 7: Using cheerio
