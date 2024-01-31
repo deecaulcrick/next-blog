@@ -114,7 +114,7 @@ Use the **`cheerio`** module to load the HTML from the website and select the el
 - Use the **`.text()`** or **`.attr()`** method to extract the data from the selected elements.
 - Use the **`console.log()`** function to print the data to the console.
 
-```jsx
+```javascript
 // The whole response has been received. Process the data.
 response.on("end", () => {
   // Load HTML content into Cheerio
@@ -145,7 +145,7 @@ response.on("end", () => {
 
 Here's an example of what your **`scraper.js`** file might look like:
 
-```jsx
+```javascript
 // scraper.js
 const https = require("https"); // or const https = require('https');
 const cheerio = require("cheerio");
