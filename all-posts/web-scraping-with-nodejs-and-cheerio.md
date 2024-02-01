@@ -182,6 +182,11 @@ https
           titles.push({ title, author });
         }
       });
+       // Print the scraped data
+
+      titles.map((title) => {
+        console.log(`${title.title} by ${title.author}`);
+      });
     });
   })
   .on("error", (error) => {
