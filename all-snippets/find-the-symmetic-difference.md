@@ -1,6 +1,6 @@
 ---
 title: Find the Symmetric Difference
-description: A JavaScript function to truncate a string
+description: Symmetric difference is a concept in set theory and mathematics that describes the set of elements that are in either of two sets but not in both.
 category: JavaScript
 lastUpdated: Jan. 2024
 ---
