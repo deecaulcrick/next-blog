@@ -1,6 +1,6 @@
 ---
 title: Understanding Bubble Sort Algorithm
-description: A JavaScript function to truncate a string
+description: Understanding Bubble Sort Algorithm + Implementation in JavaScript
 category: Algorithms
 lastUpdated: Jan. 2024
 ---
