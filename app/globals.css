@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /* --theme-color: #4aff7a; */
 :root {
   --theme-color: #83ff83;
   --subtle-text: #cccccc;
-  --subtle-divider: #8A8A8A;
+  --subtle-divider: #8a8a8a;
   --base-background-color: #080812;
   --code-background-color: #011627;
-  --primary-font-family: 'IBM Plex Sans', sans-serif;
-  --secondary-font-family: 'IBM Plex Mono', monospace;
+  --primary-font-family: "IBM Plex Sans", sans-serif;
+  --secondary-font-family: "IBM Plex Mono", monospace;
 }
 
 /* General Styles */
@@ -22,7 +22,7 @@
 body {
   background-color: var(--base-background-color);
   color: #fff;
-  font-family: var(--primary-font-family)
+  font-family: var(--primary-font-family);
 }
 
 p {
@@ -74,14 +74,11 @@ a:hover {
   padding: 25px 30px;
   display: flex;
   flex-direction: column;
-
 }
-
-
 
 .navlink {
   font-family: var(--secondary-font-family);
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   font-size: 0.85em;
   text-decoration: none;
   text-transform: uppercase;
@@ -98,7 +95,6 @@ a:hover {
   list-style-type: none;
   display: inline;
   margin-right: 20px;
-
 }
 
 .navlink:hover {
@@ -134,12 +130,10 @@ a:hover {
   font-size: 0.8em;
 }
 
-
-
 .footer-links,
 .footer-links a {
   font-family: var(--secondary-font-family);
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   font-size: 0.75em;
   text-decoration: none;
   text-transform: uppercase;
@@ -157,8 +151,6 @@ a:hover {
   row-gap: 25px;
   margin-top: 40px;
 }
-
-
 
 .post-card img {
   width: 100%;
@@ -189,23 +181,17 @@ a:hover {
   margin-top: 10px;
 }
 
-
-
 /* Post list styles end */
 
 /* Project Card styles start */
-
-
 
 .project-card a {
   text-decoration: none;
 }
 
-
 .project-card a:hover {
   text-decoration: underline;
 }
-
 
 .project-card h2 {
   margin-top: 5px;
@@ -221,14 +207,11 @@ a:hover {
 
 /* Project styles start */
 
-
 .project-excerpt {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1em;
 }
-
-
 
 /* Blog post page styles start */
 
@@ -290,7 +273,6 @@ svg:hover {
 .post-image {
   width: 100%;
   margin-top: 40px;
-
 }
 
 .post-info {
@@ -337,8 +319,7 @@ figcaption {
 }
 
 .blog-post blockquote {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  background-color: var(--code-background-color);
   font-style: italic;
   margin: 1.5em 0;
   padding: 30px 30px 20px 30px;
@@ -351,8 +332,6 @@ figcaption {
   width: fit-content;
   margin-bottom: -8px;
 }
-
-
 
 /* Blog post styles end */
 
@@ -443,7 +422,7 @@ code {
   .blog-post h1,
   .post-title {
     font-size: 60px;
-    width: 80%
+    width: 80%;
   }
 
   .blog-post p,
@@ -470,8 +449,5 @@ code {
     list-style-type: none;
     display: inline;
     margin-left: 20px;
-
   }
-
-
 }
