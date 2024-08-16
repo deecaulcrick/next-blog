@@ -103,6 +103,9 @@ a:hover {
 /* Header styles end */
 
 /* Homepage styles start */
+.latest-posts {
+  margin-bottom: 50px;
+}
 .latest-posts h2 {
   font-size: 20px;
   font-weight: 700;
