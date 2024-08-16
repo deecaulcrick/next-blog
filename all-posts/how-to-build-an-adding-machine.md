@@ -7,7 +7,7 @@ tags:
 coverImage: "adding-machine.png"
 ---
 
-I've been engrossed in reading **[Code - The Hidden Language of Computer Hardware and Software by Charles Petzold](https://www.goodreads.com/en/book/show/44882)** for the past few days. Recently, I stumbled upon a chapter that finally clarified what my CSC 313 (Introduction to Design of Digital Systems) lecturer has been attempting to convey for a little over three months – how computers work. It was an ‘aha!’ moment for me, and now I'm excited to share with you what I've learned. I'll show you how to construct an Adding Machine – a fundamental model of computation. However, we won't be building a physical one (mostly due to financial constraints). Instead, we'll create it in our minds and on paper. Let's delve into it.
+I've been engrossed in reading **[Code - The Hidden Language of Computer Hardware and Software by Charles Petzold](https://www.goodreads.com/en/book/show/44882)** for the past few days. Recently, I stumbled upon a chapter that finally clarified what my CSC 313 (Introduction to Design of Digital Systems) lecturer has been attempting to convey for a little over three months – how computers work. It was an ‘aha!’ moment for me, and now I'm excited to share with you what I've learned. I'll show you how to construct an Adding Machine – a fundamental model of computation. However, we won't be building a physical one (mostly because I can't afford it). Instead, we'll create it in our minds and on paper. Let's delve into it.
 
 Disclaimer: The adding machine we're about to construct may seem rudimentary (think 1800s technology), as we're just starting to unravel these concepts and it will only be capable of adding 8-bit binary numbers.
 

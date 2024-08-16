@@ -1,14 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"); */
 
-/* --theme-color: #4aff7a; */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 :root {
-  --theme-color: #83ff83;
+  --theme-color: #429eff;
+  --grey: #97aabe;
   --subtle-text: #cccccc;
   --subtle-divider: #8a8a8a;
-  --base-background-color: #080812;
+  --base-background-color: #011627;
   --code-background-color: #011627;
-  --primary-font-family: "IBM Plex Sans", sans-serif;
-  --secondary-font-family: "IBM Plex Mono", monospace;
+  --primary-font-family: "Inter", sans-serif;
+  --secondary-font-family: "Inter", sans-serif;
 }
 
 /* General Styles */
@@ -73,23 +75,24 @@ a:hover {
 .header {
   padding: 25px 30px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.navlink {
-  font-family: var(--secondary-font-family);
-  letter-spacing: 0.05em;
-  font-size: 0.85em;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  transition: color 1s;
+.title h4 {
+  font-family: var(--primary-font-family);
+  color: var(--theme-color);
+  font-weight: 400;
+  font-size: 25px;
 }
-
-.logo {
-  font-size: 1em;
+.title p {
+  font-family: var(--primary-font-family);
+  color: var(--grey);
+  font-weight: 400;
+  font-size: 15px;
 }
-
+.profile img {
+  width: 70px;
+}
 .header li,
 .footer li {
   list-style-type: none;
@@ -97,22 +100,13 @@ a:hover {
   margin-right: 20px;
 }
 
-.navlink:hover {
-  color: var(--theme-color);
-}
-
 /* Header styles end */
 
 /* Homepage styles start */
-.about p {
-  font-size: 2rem;
-  line-height: 1.2em;
+.latest-posts h2 {
+  font-size: 20px;
+  font-weight: 700;
 }
-
-.latest-posts {
-  margin-top: 60px;
-}
-
 /* Homepage styles end */
 
 /* Footer styles start */
@@ -152,25 +146,15 @@ a:hover {
   margin-top: 40px;
 }
 
-.post-card img {
-  width: 100%;
-  border-radius: 10px;
-  transition: transform 0.5s;
-  margin-bottom: 20px;
-}
-
-.post-card img:hover {
-  transform: scale(0.98);
-}
-
 .post-card h2 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2em;
   line-height: 1.2em;
 }
 
 .post-card-title {
   text-decoration: none;
+  color: var(--theme-color);
 }
 
 .post-card-title:hover {
@@ -276,8 +260,7 @@ svg:hover {
 }
 
 .post-info {
-  border-bottom: 1px solid var(--subtle-divider);
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .blog-post {
@@ -323,6 +306,7 @@ figcaption {
   font-style: italic;
   margin: 1.5em 0;
   padding: 30px 30px 20px 30px;
+  border-left: 4px solid var(--theme-color);
 }
 
 .code-tag {
@@ -391,10 +375,30 @@ code {
 }
 
 .post-footer {
-  border-top: 1px solid #393939;
-  padding: 20px;
   margin-top: 40px;
-  text-align: center;
+  color: var(--grey);
+  font-size: 14px;
+}
+.post-footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.post-footer ul {
+  list-style-type: none;
+  display: inline;
+}
+.post-footer li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 1dvb;
+  background-color: #c8c5c556;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+.post-footer a {
+  text-decoration: none;
+  color: var(--theme-color);
+  cursor: pointer;
 }
 
 /* table styles */
