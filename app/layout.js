@@ -13,10 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        <div className="app-body">{children}</div>
-        <Footer />
-        <Analytics />
+        <div className="body">
+          <Header />
+          <div className="app-body">{children}</div>
+          <Footer />
+          <Analytics />
+        </div>
       </body>
     </html>
   );

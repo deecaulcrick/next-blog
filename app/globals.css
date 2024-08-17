@@ -116,8 +116,8 @@ a:hover {
 .footer {
   padding: 20px 30px;
   border-top: 1px solid #444;
-  position: absolute;
-  width: 100%;
+  /* position: absolute; */
+  /* width: 100%; */
   display: grid;
   grid-template-columns: auto;
   row-gap: 20px;
@@ -429,29 +429,33 @@ td {
 @media only screen and (min-width: 900px) {
   /* For Desktops */
 
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 150px; */
+  }
+  .body {
+    max-width: 60%;
+  }
   .header {
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
   }
 
   .app-body {
     padding: 30px;
   }
 
-  .about p {
-    width: 80%;
-    font-size: 3.75rem;
-  }
-
-  .blog-post {
+  /* .blog-post {
     padding: 0px 150px;
-  }
+  } */
 
   .blog-post h1,
   .post-title {
     font-size: 60px;
-    width: 80%;
+    /* width: 80%; */
   }
 
   .blog-post p,
@@ -459,10 +463,10 @@ td {
     font-size: 20px;
   }
 
-  .post-grid {
+  /* .post-grid {
     grid-template-columns: auto auto;
     gap: 25px 25px;
-  }
+  } */
 
   .snippet-grid,
   .project-list {
@@ -471,7 +475,7 @@ td {
   }
 
   .footer {
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 35% 65%;
   }
 
   .footer li {
