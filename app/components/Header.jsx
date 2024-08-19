@@ -6,7 +6,7 @@ function Header() {
       <div className="title">
         <h4>Dee Caulcrick&apos;s Blog</h4>
         <p>
-          <i>Coding from my couch</i>
+          <i>Network & Security Engineering</i>
         </p>
       </div>
       <div className="profile">

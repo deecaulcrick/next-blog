@@ -1,5 +1,5 @@
 ---
-title: A Dumb Computer Science Student's Guide To Building An Adding Machine
+title: A Lazy Computer Science Student's Guide To Building An Adding Machine
 excerpt: I'm alive and in the end, that's what counts.
 date: February 10, 2024
 tags:
