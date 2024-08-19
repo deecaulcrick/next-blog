@@ -24,7 +24,11 @@ An IP address ensures that data sent over the internet reaches the right destina
 
 ## The Structure of an IP Address
 
-IP addresses come in two main versions: IPv4 and IPv6. IPv4 dates back to the 1980s when the internet was still a private network owned by the military. IPv4 can provide only 4.3 billion addresses which seems like such a huge number but remember: there are around 7 billion people in the world today with each person owning at least one device that can connect to the internet. Because of that limitation, the IETF came up with IPv6 which has a potential pool of 340 undecillion addresses — that’s the number 340 followed by 36 zeroes. But it is only slowly replacing IPv4.
+IP addresses come in two main versions: IPv4 and IPv6. 
+
+IPv4 dates back to the 1980s when the internet was still a private network owned by the military. IPv4 can provide only 4.3 billion addresses which seems like such a huge number but remember: there are around 7 billion people in the world today with each person owning at least one device that can connect to the internet. 
+
+Because of that limitation, the IETF came up with IPv6 which has a potential pool of 340 undecillion addresses — that's the number 340 followed by 36 zeroes. But it is only slowly replacing IPv4.
 
 - **IPv4:** This is the most common type of IP address. It’s made up of four sets of numbers (called octets), each ranging from 0 to 255, separated by periods (e.g., 192.168.1.1). An IP address has two parts: the network ID, comprising the first three numbers of the address, and a host ID, the fourth number in the address.
 
