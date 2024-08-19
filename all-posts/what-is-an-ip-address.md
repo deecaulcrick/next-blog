@@ -44,45 +44,54 @@ There are two types of IP addresses: public/external and private/local/lnternal 
 
 Your Internet Service Provider (ISP) provides your public IP address. It’s unique across the entire internet, meaning no other network has the same public IP address. When you connect to the internet, your public IP is what websites and online services see.
 
-You have a different IP address within your home or business network, each device is assigned a private IP address. These addresses are not unique globally and are only used within your local network. Devices like your computer, smartphone, and smart TV all have private IP addresses that allow them to communicate with each other through your router.
+You have a different IP address within your home or business network, each device is assigned a private IP address. These addresses are not unique globally and are only used within your local network. So all the devices connected to your home network will have the same **network ID portion** but the **Host ID portion** will be different for each dvice. Devices like your computer, smartphone, and smart TV all have private IP addresses that allow them to communicate with each other through your router.
 
 ![Types of IP Addresses](/images/ip-address/ip-types.png)
 
 It’s like when everybody calls you by your government name out in the real world, but in your home, everyone refers to you by your nickname.
+
 In essence, your public IP address is how the outside world sees your network, while private IP addresses are for internal communication within your network.
 
 ## How Did Your Device Get Its IP Address?
 
-Now you might be wondering, "How does my device get its IP address?" Most of the time, it’s automatically assigned by something called **DHCP**, or Dynamic Host Configuration Protocol. When your device connects to a network, the DHCP server hands out an IP address from a pool of available ones, sort of like assigning seats at a large event. This type of IP address is known as a dynamic IP address.
+Now you might be wondering, "How does my device get its IP address?"
+
+Most of the time, it’s automatically assigned by something called **DHCP**, aka Dynamic Host Configuration Protocol. When your device connects to a network, the DHCP server hands out an IP address from a pool of available ones, sort of like assigning seats at a large event. This type of IP address is known as a dynamic IP address.
 There are also static IP addresses, which are manually assigned and don’t change. These are often used for devices that need a permanent address, like servers or network printers.
 
 ## Is My IP Address Permanent?
 
-Now you might ask, “Is my IP address permanent?”
-The answer depends on the type of IP address you have:
+Now you might ask, “Is my IP address permanent?” The answer depends on the type of IP address you have:
 
 - **Dynamic IP Address:** Most home internet connections use dynamic IP addresses, which can change often. Your ISP might assign you a different public IP address each time you reconnect to the internet or after a certain period.
+
 - **Static IP Address:** Some businesses and individuals opt for static IP addresses, which do not change. Static IPs are often used for servers or services that need to be consistently reachable at the same address.
 
 So, if you’re using a dynamic IP address, which is most common, your IP address can change. However, a static IP address will remain the same until it's manually changed.
 
 ## How Can You Find Your IP Address?
 
-Now, you might be wondering: “Well how do I find out my IP address”
+You might be wondering: “Well how do I find out my IP address”
 
 Finding your IP address is pretty easy, although the steps vary depending on the device you’re using. But here’s how to do it:
 
-- On a Windows PC: Open the Command Prompt and type ipconfig. Look for the "IPv4 Address."
-- On a Mac: Go to System Preferences > Network, select your network connection, and you’ll see the IP address displayed.
-- On your phone: In the Wi-Fi settings, tap the network you’re connected to, and you’ll find the IP address listed there.
+- **On a Windows PC:** Click on the **Start Menu** and go to **Settings** > **Network & Internet** > **Properties**.
+Or Open the **Command Prompt** and type ```ipconfig```. Look for the "IPv4 Address."
+
+- **On a Mac:** Go to System Preferences > Network, select your network connection, and you’ll see the IP address displayed.
+
+- **On your phone:** In the Wi-Fi settings, tap the network you’re connected to, and you’ll find the IP address listed there.
 
 There are also websites like "What’s My IP?" that will show you your public IP address with a single click.
 
 ## Why Should You Care?
 
 You might not think about your IP address often, but there are a few reasons to be aware of it:
+
 **Security:** Now, you might not always want the outside world to know your IP address for several reasons. In such cases, it is possible to your IP address using a Virtual Private Network (VPN) but more on that in another blog post. Your IP address can reveal your location, which is why protecting it with tools like a VPN can be important for privacy.
+
 **Accessing Content:** Some websites restrict access based on location. Changing your IP address using a VPN can help you access content that might otherwise be blocked in your region.
+
 **Troubleshooting:** If you’re having network issues, knowing your IP address can be helpful when diagnosing problems or speaking with tech support.
 
 ## Conclusion
