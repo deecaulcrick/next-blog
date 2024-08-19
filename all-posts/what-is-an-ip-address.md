@@ -6,7 +6,10 @@ tags:
   - Network Engineering
 ---
 
-In a world where almost everyone has at least one digital device, I’m pretty sure you’ve heard the term “IP address” thrown around quite a bit, but what exactly is it, and why is it so important? Whether you’re streaming House of The Dragon (what was that ending btw?), watching your favorite cat videos, or simply looking for the next greatest meme, an IP address plays a crucial role in making it all happen.
+In a world where almost everyone has at least one digital device, I’m pretty sure you’ve heard the term “IP address” thrown around quite a bit, but what exactly is it, and why is it so important? 
+
+Whether you’re streaming House of The Dragon (what was that ending btw?), watching your favorite cat videos, or simply looking for the next greatest meme, an IP address plays a crucial role in making it all happen.
+
 In this post, I’ll break down what an IP address is, why we need it, and how you can find yours, and hopefully answer some of the burning questions you might have but are too embarrassed to ask out loud.
 
 ## What is an IP Address and Why Do We Need It?

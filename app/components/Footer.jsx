@@ -29,11 +29,6 @@ const Footer = () => {
               LinkedIn
             </a>
           </li>
-          <li>
-            <a href="https://instagram.com/deecaulcrick" target="_blank">
-              Instagram
-            </a>
-          </li>
         </ul>
       </div>
     </div>
