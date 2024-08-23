@@ -28,16 +28,16 @@ const aboutPage = () => {
       </div>
       <img src="/dee.png" alt="dee" className="dee" />
       <p className="page-desc">
-        Hiiii, I'm Dee Caulcrick.
+        Hiiii, I&apos;m Dee Caulcrick.
         <br />
         <br />
-        And this is where I reinforce my thinking and learning. I'm an avid
+        And this is where I reinforce my thinking and learning. I&apos;m an avid
         reader and learner and I love to write about what I learn and read.
         <br />
         <br />
-        Someone once said, "When you teach, you learn twice." I have years of
-        experience teaching kids and my goal is for this blog to be an avenue to
-        help others learn.
+        Someone once said, &quot;When you teach, you learn twice.&quot; I have
+        years of experience teaching kids and my goal is for this blog to be an
+        avenue to help others learn.
         <br />
         <br />
       </p>
