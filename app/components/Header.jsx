@@ -12,7 +12,7 @@ function Header() {
         <div className="title">
           <h4>Dee Caulcrick&apos;s Blog</h4>
           <p>
-            <i>Computer Science, Networks & Security </i>
+            <i>Computer Science & Stuff </i>
           </p>
           <nav>
             <Link
@@ -20,15 +20,15 @@ function Header() {
               className={`link ${pathname === "/posts" ? "active" : ""}`}
             >
               posts
-            </Link>
-            {" "}/{" "}
+            </Link>{" "}
+            /{" "}
             <Link
               href="/snippets"
               className={`link ${pathname === "/snippets" ? "active" : ""}`}
             >
               snippets
-            </Link>
-            {" "}/{" "}
+            </Link>{" "}
+            /{" "}
             <Link
               href="/about"
               className={`link ${pathname === "/about" ? "active" : ""}`}

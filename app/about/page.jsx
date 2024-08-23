@@ -41,13 +41,13 @@ const aboutPage = () => {
         <br />
         <br />
       </p>
-      <h2>Favourite Things</h2>
+      {/* <h2>Favourite Things</h2>
       <br /> <h3>Books</h3>
       <ul>
         <li>A Song Of Ice And Fire by G.R.R. Martin</li>
         <li>Purple Hibiscus by Chimamanda Ngozi Adichie</li>
         <li>Who Fears Death by Nnedi Okorafor</li>
-      </ul>
+      </ul> */}
     </div>
   );
 };
