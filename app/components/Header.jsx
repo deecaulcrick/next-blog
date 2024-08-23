@@ -21,14 +21,14 @@ function Header() {
             >
               posts
             </Link>
-            /
+            {" "}/{" "}
             <Link
               href="/snippets"
               className={`link ${pathname === "/snippets" ? "active" : ""}`}
             >
               snippets
             </Link>
-            /
+            {" "}/{" "}
             <Link
               href="/about"
               className={`link ${pathname === "/about" ? "active" : ""}`}
