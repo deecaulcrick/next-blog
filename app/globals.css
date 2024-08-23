@@ -7,7 +7,7 @@
   --grey: #97aabe;
   --subtle-text: #cccccc;
   --subtle-divider: #8a8a8a;
-  --base-background-color: #011627;
+  --base-background-color: #000710;
   --code-background-color: #011627;
   --primary-font-family: "Inter", sans-serif;
   --secondary-font-family: "Inter", sans-serif;
@@ -38,6 +38,9 @@ a {
 }
 
 a:hover {
+  color: var(--theme-color);
+}
+nav a.active {
   color: var(--theme-color);
 }
 
@@ -90,6 +93,10 @@ a:hover {
   font-weight: 400;
   font-size: 15px;
 }
+nav {
+  margin-top: 20px;
+}
+
 .profile img {
   width: 70px;
 }

@@ -2,16 +2,16 @@
 title: truncateString()
 description: A JavaScript function to truncate a string
 category: JavaScript
-lastUpdated: Oct. 2023
+date: October 9, 2023
 ---
 
 ```javascript
 function truncateString(str, maxLength) {
-    if (str.length > maxLength) {
-        return str.slice(0, maxLength) + '...';
-    } else {
-        return str;
-    }
+  if (str.length > maxLength) {
+    return str.slice(0, maxLength) + "...";
+  } else {
+    return str;
+  }
 }
 ```
 
@@ -20,7 +20,6 @@ Here's an example of how you can use this function:
 ```javascript
 let truncatedString = truncateString("Lorem ipsum dolor sit amet", 10);
 console.log(truncatedString); // Outputs: "Lorem ipsu..."
-
 ```
 
 ## Context

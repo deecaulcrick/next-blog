@@ -2,12 +2,12 @@
 title: reverseString()
 description: A JavaScript function to reverse a string
 category: JavaScript
-lastUpdated: Oct. 2023
+date: October 12, 2023
 ---
 
 ```javascript
 function reverseString(str) {
-  return str.split('').reverse().join('');
+  return str.split("").reverse().join("");
 }
 
 reverseString("hello");
@@ -15,7 +15,7 @@ reverseString("hello");
 
 You can use this function by passing a string as an argument. For example:
 
-``` javascript
+```javascript
 let reversedString = reverseString("Hello World!");
 console.log(reversedString); // Outputs: "!dlroW olleH"
 ```

@@ -2,7 +2,7 @@
 title: Find the Symmetric Difference
 description: Symmetric difference is a concept in set theory and mathematics that describes the set of elements that are in either of two sets but not in both.
 category: JavaScript
-lastUpdated: Jan. 2024
+date: January 23, 2024
 ---
 
 ## What is Symmetic Difference?

@@ -2,7 +2,7 @@
 title: Understanding Bubble Sort Algorithm
 description: Understanding Bubble Sort Algorithm + Implementation in JavaScript
 category: Algorithms
-lastUpdated: Jan. 2024
+date: January 25, 2024
 ---
 
 Sorting algorithms play a crucial role in computer science, and one of the simplest among them is the Bubble Sort algorithm.
