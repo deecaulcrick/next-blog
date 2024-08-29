@@ -1,7 +1,7 @@
 ---
 title: The TCP/IP and OSI Models — What happens when you send that risky text?
 excerpt: The non-technical version
-date: August 19, 2024
+date: July 12, 2024
 tags:
   - Network Engineering
 ---
@@ -137,3 +137,7 @@ Once your risky text has traveled through all these layers and across the networ
 While sending a text might seem like a simple act, a lot is happening under the hood to ensure your message reaches its destination correctly and securely. By understanding the TCP/IP and OSI models, you can appreciate the complexity and efficiency of modern communication networks.
 
 So, next time you’re about to send that risky text, take a moment to think about the incredible journey it’s about to take. And remember, the decision to hit "send" might be simple, but what happens afterward is anything but.
+
+### Related Posts:
+
+- [What the heck is an IP Address?](https://deecaulcrick.com/posts/what-is-an-ip-address)

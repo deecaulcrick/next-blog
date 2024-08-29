@@ -1,7 +1,7 @@
 ---
 title: What the heck is an IP Address?
 excerpt: The non-technical version
-date: August 19, 2024
+date: July 6, 2024
 tags:
   - Network Engineering
 ---
