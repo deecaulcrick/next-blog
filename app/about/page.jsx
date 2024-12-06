@@ -75,7 +75,6 @@ const aboutPage = () => {
             ))}
           </ul>
         </div>
-        
 
         <h2>Archived Projects</h2>
         <p className="subtitle-2">
@@ -97,7 +96,12 @@ const aboutPage = () => {
             ))}
           </ul>
         </div>
-
+        <p>
+          Wanna see some of my client work? Visit my{" "}
+          <Link href="https://studio.deecaulcrick.com/" target="_blank">
+            web design studio
+          </Link>
+        </p>
         {/* <h2>Favourite Things</h2>
       <br /> <h3>Books</h3>
       <ul>

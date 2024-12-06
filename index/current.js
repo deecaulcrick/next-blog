@@ -10,7 +10,7 @@ const currentData = [
     id: 2,
     title: "The Web Design Studio",
     desc: "My day-to-day designing and building websites for clients from all over the world.",
-    date: "2020-Now",
+    date: "2016-Now",
     link: "https://studio.deecaulcrick.com/",
   },
   {
